@@ -32,6 +32,10 @@ $liner: linear-gradient(90deg, rgba(250, 110, 0, 1) 0%, rgba(230, 0, 38, 1) 50%)
     }
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #121212;
 }
@@ -62,6 +66,10 @@ nav {
     }
 
     @include fontColor
+}
+
+a{
+    text-decoration: none;
 }
 
 .header-list {
@@ -250,6 +258,10 @@ nav {
         padding: 14px 40px;
         border: none;
         border-radius: 8px;
+        cursor: pointer;
+        &{
+            
+        }
     }
 }
 
